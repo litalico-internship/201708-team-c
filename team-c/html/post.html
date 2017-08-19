@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+	<html lang="ja">
 	<head>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title></title>
@@ -10,7 +11,7 @@
 		<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 		<!-- You should properly set the path from the main file. -->
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/.css">
+		<link rel="stylesheet" type="text/css" href="../css/post.css">
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="./js/post.js"></script>
@@ -18,27 +19,29 @@
 
 	
 	<body>
-	<p>今の気分は?</p>
+	<div>
+	<font size="10" color="#000000" >今の気分は?</font>
+	</div>
 	<!-- テキストフィールド -->
-	<p>
+	<div>
 	<input type="text" name="noun" size="30" length="10"></input>
-	</p>
+	</div>
 	
 	<!-- プルダウン -->
-	<p>
+	<div>
 	<select name="Pulldown">
 		<option value="happy">楽しかった</option>
 		<option value="sad">悲しい</option>
 	</select>
 	
-	</p>
+	</div>
 	<!-- パラメータの棒 -->
 	<p>
-	<input type="range" name="parameter" value="0">
+	<input type="range" name="parameter" value="5">
 	</p>
 	<!-- 投稿ボタン -->
 	<p>
-	<button type="button" name="post" value="post"></button>
+	<button type="button" name="post" value="post">投稿</button>
 	</p>
 	</body>
 </html>	
