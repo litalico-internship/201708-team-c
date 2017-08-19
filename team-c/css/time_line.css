@@ -1,12 +1,28 @@
 
+.select_time_line {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.select_time_line a{
+    width: 49%;
+    margin:5px 0 5px 0;
+}
 
 .wrapper_time_line{
-    width:100%;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .a_block_time_line{
     padding: 15px 10px 15px 10px;
     width: 100%;
+}
+
+.sentence_time_line a{
+    color: gray;
 }
 
 .sentence_time_line p{
@@ -16,6 +32,6 @@
 
 
 .icon_time_line i{
-    margin-left:10px;
+    margin-left: 10px;
 }
 
