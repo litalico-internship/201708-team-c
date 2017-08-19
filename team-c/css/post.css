@@ -1,23 +1,27 @@
-.red {
-	background-color: : #c93a40;
+.white {
+	color: #ffffff;
+}
+.font-ll {
+	font-size: 6.0rem;
 }
 
-.yellow {
-	background-color: #fff001;
+.select_emotion {
+	width: 60%;
 }
 
-.blue {
-	background-color: #0074bf;
+.size_emotion {
+	width: 60%;
 }
 
-.green {
-	background-color: #56a764;
+.center{
+	text-align: center;
 }
 
-.purple {
-	background-color: #9460a0
+.button_size{
+	letter-spacing: 5.0rem;
 }
 
-html, body {
-	width: 100%;
+textarea {
+width: 250px;
+height: 10em;
 }

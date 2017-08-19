@@ -32,32 +32,32 @@
     <script src="https://use.fontawesome.com/8135123537.js"></script>
     
 </head>
-
-	
-	<body>
-	<div>
-	<font size="10" color="#000000" >今の気分は?</font>
-	</div>
-	<!-- テキストフィールド -->
-	<div>
-	<input type="text" name="noun" size="30" length="10"></input>
-	</div>
-	
-	<!-- プルダウン -->
-	<div>
-	<select name="Pulldown">
-		<option value="happy">楽しかった</option>
-		<option value="sad">悲しい</option>
-	</select>
-	
-	</div>
-	<!-- パラメータの棒 -->
-	<p>
-	<input type="range" name="parameter" value="5">
-	</p>
-	<!-- 投稿ボタン -->
-	<p>
-	<button type="button" name="post" value="post">投稿</button>
-	</p>
+		<body class="red">
+			<div class="center">
+				<font class="font-ll" color="white">今の気分は?</font>
+			</div>
+			<!-- テキストフィールド -->
+			<div class="center">
+				<form>
+					<fieldest>
+						<textarea id="text_field" class="font-l"></textarea>
+					</fieldset>
+				</form>
+			</div>
+		<!-- プルダウン -->
+		<div class="center">
+			<select class="font_l white select_emotion">
+				<option value="happy">楽しかった</option>
+				<option value="sad">悲しい</option>
+			</select>
+			<!-- パラメータの棒 -->
+			<p>
+				<input class="size_emotion" type="range">
+			</p>
+			<!-- 投稿ボタン -->
+			<p>
+				<button class="button">投稿</button>
+			</p>
+		</div>
 	</body>
 </html>	
