@@ -32,3 +32,21 @@
 .icon_time_line i {
     margin-left: 10px;
 }
+
+.post_float_button {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    right: 10%;
+    bottom: 5%;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.post_float_button a {
+    font-size: 4.0rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 30%;
+}
