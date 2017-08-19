@@ -1,39 +1,40 @@
 .red {
-	background-color: #c93a40;
+    background-color: #c93a40;
 }
 
 .yellow {
-	background-color: #FFEF00;
+    background-color: #FFEF00;
 }
 
 .blue {
-	background-color: #0074bf;
+    background-color: #0074bf;
 }
 
 .green {
-	background-color: #56a764;
+    background-color: #56a764;
 }
 
 .purple {
-	background-color: #9460a0
+    background-color: #9460a0
 }
 
-html, body {
-	width: 100%;
+html,
+body {
+    width: 100%;
 }
 
-html{
-	font-size: 62.5%;
+html {
+    font-size: 62.5%;
 }
 
-body{
-	font-size: 1.6rem;
+body {
+    font-size: 1.6rem;
 }
 
-.font_s{
-	font-size: 1.0rem;
+.font_s {
+    font-size: 1.0rem;
 }
 
-.font-l{
-	font-size: 2.0rem;
+.font_l {
+    font-size: 2.0rem;
 }
