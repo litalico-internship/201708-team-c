@@ -1,0 +1,56 @@
+
+#profile_container {
+	width: 100%;
+}
+
+/* ユーザ画像、名前、所属施設のブロック */
+.user_block {
+	width: 100%;
+	height: 84px;
+	background-color: #efefef;
+}
+
+.user_icon {
+	display: inline-block;
+	width: 25%;
+	height: 84px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.user_name_home_block {
+	display: inline-block;
+	width: 75%;
+	height: 84px;
+	padding: 16px 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.user_name, .user_home {
+	width: 100%;
+}
+
+
+/* 感情の推移グラフ、グラフの横軸、グラフの表示範囲切り替えボタンのブロック */
+.graph_block {
+	width: 100%;
+	background-color: #fefefe;
+	text-align: center;
+}
+
+.graph {
+	width: 100%;
+	height: 100px;
+}
+
+.time_axis {
+	width: 100%;
+}
+
+.day_button, .week_button {
+	width: 50%;
+	margin: 0px;
+	border-radius: 0px;
+}
