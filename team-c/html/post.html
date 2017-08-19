@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+	<html lang="ja">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title></title>
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+		<!-- CSS Reset -->
+		<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+		<!-- Milligram CSS minified -->
+		<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+		<!-- You should properly set the path from the main file. -->
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/post.css">
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="./js/post.js"></script>
+	</head>
+
+	
+	<body>
+	<div>
+	<font size="10" color="#000000" >今の気分は?</font>
+	</div>
+	<!-- テキストフィールド -->
+	<div>
+	<input type="text" name="noun" size="30" length="10"></input>
+	</div>
+	
+	<!-- プルダウン -->
+	<div>
+	<select name="Pulldown">
+		<option value="happy">楽しかった</option>
+		<option value="sad">悲しい</option>
+	</select>
+	
+	</div>
+	<!-- パラメータの棒 -->
+	<p>
+	<input type="range" name="parameter" value="5">
+	</p>
+	<!-- 投稿ボタン -->
+	<p>
+	<button type="button" name="post" value="post">投稿</button>
+	</p>
+	</body>
+</html>	
