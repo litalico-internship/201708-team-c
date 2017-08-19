@@ -1,23 +1,13 @@
-.red {
-	background-color: : #c93a40;
+
+textarea {
+width: 250px;
+height: 10em;
 }
 
-.yellow {
-	background-color: #fff001;
+block_height {
+	height: 30px
 }
 
-.blue {
-	background-color: #0074bf;
-}
-
-.green {
-	background-color: #56a764;
-}
-
-.purple {
-	background-color: #9460a0
-}
-
-html, body {
-	width: 100%;
+body {
+	text-align:center
 }
