@@ -18,6 +18,10 @@
     background-color: #9460a0
 }
 
+.white {
+    background-color: #fff;
+}
+
 html,
 body {
     width: 100%;
