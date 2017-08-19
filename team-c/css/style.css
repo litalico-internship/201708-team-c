@@ -21,3 +21,19 @@
 html, body {
 	width: 100%;
 }
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+.font_s{
+	font-size: 1.0rem;
+}
+
+.font-l{
+	font-size: 2.0rem;
+}
