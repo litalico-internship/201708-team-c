@@ -1,0 +1,23 @@
+.red {
+	background-color: : #c93a40;
+}
+
+.yellow {
+	background-color: #fff001;
+}
+
+.blue {
+	background-color: #0074bf;
+}
+
+.green {
+	background-color: #56a764;
+}
+
+.purple {
+	background-color: #9460a0
+}
+
+html, body {
+	width: 100%;
+}
