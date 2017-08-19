@@ -1,13 +1,27 @@
+.white {
+	color: #ffffff;
+}
+.font-ll {
+	font-size: 6.0rem;
+}
+
+.select_emotion {
+	width: 60%;
+}
+
+.size_emotion {
+	width: 60%;
+}
+
+.center{
+	text-align: center;
+}
+
+.button_size{
+	letter-spacing: 5.0rem;
+}
 
 textarea {
 width: 250px;
 height: 10em;
-}
-
-block_height {
-	height: 30px
-}
-
-body {
-	text-align:center
 }

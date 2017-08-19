@@ -1,47 +1,48 @@
 <!DOCTYPE HTML>
 	<html lang="ja">
-	<head>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title></title>
-		<!-- Google Fonts -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-		<!-- CSS Reset -->
-		<link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-		<!-- Milligram CSS minified -->
-		<link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
-		<!-- You should properly set the path from the main file. -->
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/post.css">
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script src="../js/post.js"></script>
-	</head>
+		<head>
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+			<title></title>
+			<!-- Google Fonts -->
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+			<!-- CSS Reset -->
+			<link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+			<!-- Milligram CSS minified -->
+			<link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+			<!-- You should properly set the path from the main file. -->
+			<link rel="stylesheet" type="text/css" href="../css/style.css">
+			<link rel="stylesheet" type="text/css" href="../css/post.css">
+			<!-- jQuery -->
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+			<script src="../js/post.js"></script>
+		</head>
 	
-	<body class="red">
-	<div>
-	<font class="font-l" color="ffffff">今の気分は?</font>
-	</div>
-	<!-- テキストフィールド -->
-	<div>
-	<form>
-		<fieldest>
-			<textarea id="text_field"></textarea>
-		</fieldset>
-	</form>
-	</div>
-	
-	<!-- プルダウン -->
-	
-	<select name="Pulldown">
-		<option value="happy">楽しかった</option>
-		<option value="sad">悲しい</option>
-	</select>
-	<!-- パラメータの棒 -->
-	<p>
-	<input type="range" name="parameter" value="5">
-	</p class="right">
-	<!-- 投稿ボタン -->
-	<button class="button button-outline">投稿</button>
-	</p>
+		<body class="red">
+			<div class="center">
+				<font class="font-ll" color="white">今の気分は?</font>
+			</div>
+			<!-- テキストフィールド -->
+			<div class="center">
+				<form>
+					<fieldest>
+						<textarea id="text_field" class="font-l"></textarea>
+					</fieldset>
+				</form>
+			</div>
+		<!-- プルダウン -->
+		<div class="center">
+			<select class="font_l white select_emotion">
+				<option value="happy">楽しかった</option>
+				<option value="sad">悲しい</option>
+			</select>
+			<!-- パラメータの棒 -->
+			<p>
+				<input class="size_emotion" type="range">
+			</p>
+			<!-- 投稿ボタン -->
+			<p>
+				<button class="button">投稿</button>
+			</p>
+		</div>
 	</body>
 </html>	
