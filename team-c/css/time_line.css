@@ -45,4 +45,8 @@
 
 .post_float_button a {
     font-size: 4.0rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 30%;
 }
