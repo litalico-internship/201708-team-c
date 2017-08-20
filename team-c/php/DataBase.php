@@ -6,7 +6,7 @@ class DataBase
         'host'     => 'localhost',
         'dbname'   => 'team_c',
         'dbuser'   => 'root',
-        'password' => ''
+        'password' => 'root'
     );
     private $_pdo;
 
