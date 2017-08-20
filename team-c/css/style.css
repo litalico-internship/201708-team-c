@@ -1,9 +1,9 @@
 .red {
-    background-color: rgba(255, 105, 105, 1.0);
+    background-color: rgba(255, 105, 105, 0.9);
 }
 
 .yellow {
-    background-color: rgba(255, 199, 118, 1.0);
+    background-color: rgba(255, 199, 118, 0.9);
 }
 
 .blue {
@@ -15,7 +15,7 @@
 }
 
 .purple {
-    background-color: rgba(148, 96, 160, 1.0);
+    background-color: rgba(148, 96, 160, 0.9);
 }
 
 .white {
@@ -116,7 +116,7 @@ body {
 }
 
 .font_s {
-    font-size: 1.0rem;
+    font-size: 0.9rem;
 }
 
 .font_l {
