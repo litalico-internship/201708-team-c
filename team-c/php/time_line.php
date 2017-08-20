@@ -16,12 +16,9 @@ $emotionType = $db->query($sql, $params)[0]['emotion_type'];
 
 // get same emotion TimeLine 
 $sql = 'SELECT * FROM emotion_posts ' .
-		"WHERE emotion_posts.emotion_type = ':emotion_type' ".
+		"WHERE emotion_posts.emotion_type = '". $emotionType ."' ".
 		'ORDER BY created DESC';
-$params = array(
-	'emotion_type' => $emotionType
-);
-$emotionTL = $db->query($sql, $params);
+$emotionTL = $db->query($sql);
 
 // get current TimeLine
 $sql = 'SELECT * FROM emotion_posts ' .
@@ -69,10 +66,11 @@ $currentTL = $db->query($sql);
 
 <body>
 	<div class="select_time_line">
-		<a class="button button-outline" href="#">みんなのTL</a>
-		<a class="button button-outline" href="#">おんなじTL</a>
+		<a id="current_tl_button" class="button button-outline" href="#">みんなのTL</a>
+		<a id="emotion_tl_button" class="button button-outline" href="#">おんなじTL</a>
 	</div>
-	<div class="wrapper_time_line">
+	<!-- みんなのTL -->
+	<div id="current_tl" class="wrapper_time_line">
 		<?php foreach ($currentTL as $key => $val) : ?>
 		<!--一つのブロック始まり -->
 		<div class="a_block_time_line <?php echo Util::$color[ Util::h($val['emotion_type']) ] . '_' . Util::h($val['level']);?>" >
@@ -95,9 +93,55 @@ $currentTL = $db->query($sql);
 		<!--一つのブロッック終わり -->
 		<?php endforeach ?>
 	</div>
-	<div class="post_float_button white ">
-		<a>+</a>
+	<!-- おんなじTL -->
+	<div id="emotion_tl" class="wrapper_time_line">
+		<?php foreach ($emotionTL as $key => $val) : ?>
+		<!--一つのブロック始まり -->
+		<div class="a_block_time_line <?php echo Util::$color[ Util::h($val['emotion_type']) ] . '_' . Util::h($val['level']);?>" >
+			<div class="sentence_time_line">
+				<a href="profile.php">
+					<p><?php echo Util::h($val['reason']) . '、' . Util::$phrase[ Util::h($val['emotion_type']) ]; ?></p>
+				</a>
+			</div>
+			<div class="icon_time_line">
+				<!-- わかる -->
+				<a><i class="fa fa-heart" aria-hidden="true"></i></a>
+				<!-- すごい -->
+				<a><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+				<!-- 応援 -->
+				<a><i class="fa fa-flag" aria-hidden="true"></i></a>
+				<!-- コメント -->
+				<a><i class="fa fa-reply reply" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!--一つのブロッック終わり -->
+		<?php endforeach ?>
 	</div>
+	<div class="post_float_button white ">
+		<a href="post.php">+</a>
+	</div>
+	<script type="text/javascript">
+		function showCurrentTL() {
+			$("#emotion_tl").hide(100);
+			$("#current_tl").show(300);
+		}
+		function showEmotionTL() {
+			$("#current_tl").hide(100);
+			$("#emotion_tl").show(300);
+		}
+
+		const _click = (window.ontouchstart === undefined)? 'click' : 'touchstart';
+
+		$("#current_tl_button").on(_click, showCurrentTL);
+		$("#emotion_tl_button").on(_click, showEmotionTL);
+
+		const emotionType = '<?php echo $emotionType;?>';
+		if(emotionType == '') {
+			$("#emotion_tl").hide();
+		} else {
+			$("#current_tl").hide();
+		}
+	</script>
 </body>
 
 </html>
