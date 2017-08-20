@@ -43,7 +43,7 @@
 }
 
 .red_5 {
-    background-color: rgba(255, 105, 105, 1.0);
+    background-color: rgba(255, 105, 105, 0.9);
 }
 
 .yellow_1 {
@@ -63,7 +63,7 @@
 }
 
 .yellow_5 {
-    background-color: rgba(255, 199, 118, 1.0);
+    background-color: rgba(255, 199, 118, 0.9);
 }
 
 .blue_1 {
@@ -83,7 +83,7 @@
 }
 
 .blue_5 {
-    background-color: rgba(77, 155, 232, 1.0);
+    background-color: rgba(77, 155, 232, 0.9);
 }
 
 .green_1 {
@@ -103,7 +103,7 @@
 }
 
 .green_5 {
-    background-color: rgba(68, 211, 126, 1.0);
+    background-color: rgba(68, 211, 126, 0.9);
 }
 
 .purple_1 {
@@ -123,7 +123,7 @@
 }
 
 .purple_5 {
-    background-color: rgba(148, 96, 160, 1.0);
+    background-color: rgba(148, 96, 160, 0.9);
 }
 
 html,
