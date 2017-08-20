@@ -83,13 +83,13 @@ $currentTL = $db->query($sql);
 			</div>
 			<div class="icon_time_line">
 				<!-- わかる -->
-				<a><i class="fa fa-heart" aria-hidden="true"></i></a>
+				<a><i class="fa fa-heart fa-lg" aria-hidden="true"></i></a><span class="reaction_num"><?php echo rand(1,30);?></span>
 				<!-- すごい -->
-				<a><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+				<a><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></a><span class="reaction_num"><?php echo rand(1,30);?></span>
 				<!-- 応援 -->
-				<a><i class="fa fa-flag" aria-hidden="true"></i></a>
+				<a><i class="fa fa-flag fa-lg" aria-hidden="true"></i></a><span class="reaction_num"><?php echo rand(1,30);?></span>
 				<!-- コメント -->
-				<a><i class="fa fa-reply reply" aria-hidden="true"></i></a>
+				<a><i class="fa fa-reply fa-lg reply" aria-hidden="true"></i></a><span class="reaction_num"><?php echo rand(1,30);?></span>
 			</div>
 		</div>
 		<!--一つのブロッック終わり -->
