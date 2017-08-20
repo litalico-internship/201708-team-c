@@ -1,25 +1,29 @@
 .red {
-    background-color: #c93a40;
+    background-color: rgba(201, 58, 64, 1.0);
 }
 
 .yellow {
-    background-color: #FFEF00;
+    background-color: rgba(255, 239, 0, 1.0);
 }
 
 .blue {
-    background-color: #0074bf;
+    background-color: rgba(0, 116, 191, 1.0);
 }
 
 .green {
-    background-color: #56a764;
+    background-color: rgba(86, 167, 100, 1.0);
 }
 
 .purple {
-    background-color: #9460a0
+    background-color: rgba(148, 96, 160, 1.0);
 }
 
 .white {
     background-color: #fff;
+}
+
+.gray {
+    background-color: gray;
 }
 
 html,
@@ -27,18 +31,18 @@ body {
     width: 100%;
 }
 
-html{
-	font-size: 62.5%;
+html {
+    font-size: 62.5%;
 }
 
-body{
-	font-size: 1.6rem;
+body {
+    font-size: 1.6rem;
 }
 
-.font_s{
-	font-size: 1.0rem;
+.font_s {
+    font-size: 1.0rem;
 }
 
-.font_l{
-	font-size: 2.0rem;
+.font_l {
+    font-size: 2.0rem;
 }
