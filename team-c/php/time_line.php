@@ -28,6 +28,7 @@ $sql = 'SELECT * FROM emotion_posts ' .
 		'ORDER BY created DESC';
 $currentTL = $db->query($sql);
 
+
 ?>
 
 <!DOCTYPE html>
@@ -74,16 +75,20 @@ $currentTL = $db->query($sql);
 	<div class="wrapper_time_line">
 		<?php foreach ($currentTL as $key => $val) : ?>
 		<!--一つのブロック始まり -->
-		<div class="a_block_time_line green">
+		<div class="a_block_time_line <?php echo Util::$color[ Util::h($val['emotion_type']) ] . '_' . Util::h($val['level']);?>" >
 			<div class="sentence_time_line">
 				<a>
-					<p><?php echo Util::h($val['reason']) . '、' . Util::h($val['emotion_type']); ?></p>
+					<p><?php echo Util::h($val['reason']) . '、' . Util::$phrase[ Util::h($val['emotion_type']) ]; ?></p>
 				</a>
 			</div>
 			<div class="icon_time_line">
-				<a><i class="fa fa-hand-peace-o" aria-hidden="true"></i> 1</a>
-				<a><i class="fa fa-star-o" aria-hidden="true"></i>13</a>
-				<a><i class="fa fa-hand-peace-o" aria-hidden="true"></i>45</a>
+				<!-- わかる -->
+				<a><i class="fa fa-heart" aria-hidden="true"></i></a>
+				<!-- すごい -->
+				<a><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+				<!-- 応援 -->
+				<a><i class="fa fa-flag" aria-hidden="true"></i></a>
+				<!-- コメント -->
 				<a><i class="fa fa-reply reply" aria-hidden="true"></i></a>
 			</div>
 		</div>

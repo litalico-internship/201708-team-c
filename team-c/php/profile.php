@@ -45,14 +45,7 @@
 			</div>
 			<!-- ユーザの感情遷移グラフ -->
 			<div class="graph_block">
-				<div class="graph">
-		    		
-				</div>
-				<div class="time_axis">
-
-				</div>
-				<a class="button day_button" href="#">1 Day</a><!--
-				--><a class="button week_button" href="#">1 Week</a>
+				<img src="../image/graph_emotion.png">
 			</div>
 		</div>
 

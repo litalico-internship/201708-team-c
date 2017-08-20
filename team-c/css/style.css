@@ -26,6 +26,82 @@
     background-color: gray;
 }
 
+.red_1 {
+    background-color: rgba(255, 105, 105, 0.2);
+}
+.red_2 {
+    background-color: rgba(255, 105, 105, 0.4);
+}
+.red_3 {
+    background-color: rgba(255, 105, 105, 0.6);
+}
+.red_4 {
+    background-color: rgba(255, 105, 105, 0.8);
+}
+.red_5 {
+    background-color: rgba(255, 105, 105, 1.0);
+}
+.yellow_1 {
+    background-color: rgba(255, 199, 118, 0.2);
+}
+.yellow_2 {
+    background-color: rgba(255, 199, 118, 0.4);
+}
+.yellow_3 {
+    background-color: rgba(255, 199, 118, 0.6);
+}
+.yellow_4 {
+    background-color: rgba(255, 199, 118, 0.8);
+}
+.yellow_5 {
+    background-color: rgba(255, 199, 118, 1.0);
+}
+.blue_1 {
+    background-color: rgba(77, 155, 232, 0.2);
+}
+.blue_2 {
+    background-color: rgba(77, 155, 232, 0.4);
+}
+.blue_3 {
+    background-color: rgba(77, 155, 232, 0.6);
+}
+.blue_4 {
+    background-color: rgba(77, 155, 232, 0.8);
+}
+.blue_5 {
+    background-color: rgba(77, 155, 232, 1.0);
+}
+.green_1{
+    background-color: rgba(68, 211, 126, 0.2);
+}
+.green_2{
+    background-color: rgba(68, 211, 126, 0.4);
+}
+.green_3{
+    background-color: rgba(68, 211, 126, 0.6);
+}
+.green_4{
+    background-color: rgba(68, 211, 126, 0.8);
+}
+.green_5{
+    background-color: rgba(68, 211, 126, 1.0);
+}
+.purple_1 {
+    background-color: rgba(148, 96, 160, 0.2);
+}
+.purple_2 {
+    background-color: rgba(148, 96, 160, 0.4);
+}
+.purple_3 {
+    background-color: rgba(148, 96, 160, 0.6);
+}
+.purple_4 {
+    background-color: rgba(148, 96, 160, 0.8);
+}
+.purple_5 {
+    background-color: rgba(148, 96, 160, 1.0);
+}
+
 html,
 body {
     width: 100%;
