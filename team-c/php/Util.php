@@ -1,7 +1,24 @@
 <?php
 
 class Util {
-	
+	// emotion_type -> phrase
+	public static $phrase = array(
+		'interesting' => '楽しい',
+		'happy' => 'うれしい',
+		'sad' => '悲しい',
+		'tired' => 'つかれる',
+		'angry' => 'むかつく'
+	);
+
+	// emotion_type -> color
+	public static $color = array(
+		'interesting' => 'yellow',
+		'happy' => 'green',
+		'sad' => 'blue',
+		'tired' => 'purple',
+		'angry' => 'red'
+	);
+
 	public static function setDisplayErr() {
 		// エラー表示設定
 		ini_set("display_errors", "On");
