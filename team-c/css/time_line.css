@@ -16,13 +16,14 @@
 }
 
 .a_block_time_line {
-	margin: 5px;
+    margin: 5px;
     padding: 15px 10px 15px 10px;
     width: 100%;
 }
 
 .sentence_time_line a {
     color: white;
+    font-weight: bold;
 }
 
 .sentence_time_line p {
@@ -51,4 +52,8 @@
     top: 0;
     width: 100%;
     left: 30%;
+}
+
+.reaction_num {
+    margin-left: 4px;
 }
