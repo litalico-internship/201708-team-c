@@ -77,7 +77,7 @@ $currentTL = $db->query($sql);
 		<!--一つのブロック始まり -->
 		<div class="a_block_time_line <?php echo Util::$color[ Util::h($val['emotion_type']) ] . '_' . Util::h($val['level']);?>" >
 			<div class="sentence_time_line">
-				<a>
+				<a href="profile.php">
 					<p><?php echo Util::h($val['reason']) . '、' . Util::$phrase[ Util::h($val['emotion_type']) ]; ?></p>
 				</a>
 			</div>
