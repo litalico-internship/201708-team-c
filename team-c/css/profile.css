@@ -36,6 +36,7 @@
 /* 感情の推移グラフ、グラフの横軸、グラフの表示範囲切り替えボタンのブロック */
 .graph_block {
 	width: 100%;
+	height: 150px;
 	background-color: #fefefe;
 	text-align: center;
 }
