@@ -16,12 +16,13 @@
 }
 
 .a_block_time_line {
+	margin: 5px;
     padding: 15px 10px 15px 10px;
     width: 100%;
 }
 
 .sentence_time_line a {
-    color: gray;
+    color: white;
 }
 
 .sentence_time_line p {
@@ -31,6 +32,7 @@
 
 .icon_time_line i {
     margin-left: 10px;
+    color: white;
 }
 
 .post_float_button {
