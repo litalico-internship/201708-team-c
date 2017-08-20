@@ -81,9 +81,13 @@ $currentTL = $db->query($sql);
 				</a>
 			</div>
 			<div class="icon_time_line">
-				<a><i class="fa fa-hand-peace-o" aria-hidden="true"></i> 1</a>
-				<a><i class="fa fa-star-o" aria-hidden="true"></i>13</a>
-				<a><i class="fa fa-hand-peace-o" aria-hidden="true"></i>45</a>
+				<!-- わかる -->
+				<a><i class="fa fa-heart" aria-hidden="true"></i></a>
+				<!-- すごい -->
+				<a><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+				<!-- 応援 -->
+				<a><i class="fa fa-flag" aria-hidden="true"></i></a>
+				<!-- コメント -->
 				<a><i class="fa fa-reply reply" aria-hidden="true"></i></a>
 			</div>
 		</div>
