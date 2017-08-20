@@ -39,7 +39,7 @@
 		<h1 class="post_title">今の気分は?</h1>
 	</div>
 	<!-- テキストフィールド -->
-	<form name="post_form" action="#" method="POST">
+	<form name="post_form" action="time_line.php" method="POST">
 		<div class="center">
 			<textarea name="reason" class="font_l reason_input"></textarea>
 		</div>
