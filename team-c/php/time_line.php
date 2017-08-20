@@ -28,6 +28,7 @@ $sql = 'SELECT * FROM emotion_posts ' .
 		'ORDER BY created DESC';
 $currentTL = $db->query($sql);
 
+
 ?>
 
 <!DOCTYPE html>
@@ -74,10 +75,10 @@ $currentTL = $db->query($sql);
 	<div class="wrapper_time_line">
 		<?php foreach ($currentTL as $key => $val) : ?>
 		<!--一つのブロック始まり -->
-		<div class="a_block_time_line green">
+		<div class="a_block_time_line <?php echo Util::$color[ Util::h($val['emotion_type']) ] . '_' . Util::h($val['level']);?>" >
 			<div class="sentence_time_line">
 				<a>
-					<p><?php echo Util::h($val['reason']) . '、' . Util::h($val['emotion_type']); ?></p>
+					<p><?php echo Util::h($val['reason']) . '、' . Util::$phrase[ Util::h($val['emotion_type']) ]; ?></p>
 				</a>
 			</div>
 			<div class="icon_time_line">
