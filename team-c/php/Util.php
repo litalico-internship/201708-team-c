@@ -13,6 +13,10 @@ class Util {
 		session_set_cookie_params(0, '/team-c/team-c/');
 	}
 
+	public static function h($str) {
+		return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
+	}
+
 }
 
 ?>
